@@ -50,7 +50,7 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
  ### เริ่มต้นgdb
 `GDB`
 
-![304](blob:https://stackedit.io/008e6693-e01c-4ffe-b3ac-9a035cfe8265)
+![304](blob:https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp)
 ### Gdb open prompt  แจ้งให้คุณทราบว่าพร้อมสําหรับคําสั่งแล้ว หากต้องการออกจาก gdb 
 
     quit
