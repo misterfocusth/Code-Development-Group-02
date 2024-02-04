@@ -52,7 +52,8 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp">
 
-### Gdb open prompt  แจ้งให้คุณทราบว่าพร้อมสําหรับคําสั่งแล้ว หากต้องการออกจาก gdb 
+Gdb open prompt  แจ้งให้คุณทราบว่าพร้อมสําหรับคําสั่งแล้ว 
+### หากต้องการออกจาก gdb 
 
     quit
 or
