@@ -5,7 +5,7 @@
 
 **Debugger**  เป็นเครื่องมือซอฟต์แวร์ที่นักพัฒนาใช้เพื่อระบุและแก้ไขปัญหาในโปรแกรมคอมพิวเตอร์ มีสภาพแวดล้อมที่มีการควบคุมสําหรับการตรวจสอบและวิเคราะห์การดําเนินการของโปรแกรม ทําให้นักพัฒนาเข้าใจพฤติกรรมของโค้ดและวินิจฉัยปัญหาได้ ดีบักเกอร์เป็นสิ่งจําเป็นสําหรับการพัฒนาซอฟต์แวร์ ช่วยปรับปรุงกระบวนการดีบักและปรับปรุงคุณภาพโค้ดโดยรวม
 
-Debugger มีคุณสมบัติหลายอย่าง เช่น
+**Debugger** มีคุณสมบัติหลายอย่าง เช่น
 
 **Breakpoints:**
 
@@ -50,7 +50,8 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
  ### เริ่มต้นgdb
 `GDB`
 
-![304](blob:https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp">
+
 ### Gdb open prompt  แจ้งให้คุณทราบว่าพร้อมสําหรับคําสั่งแล้ว หากต้องการออกจาก gdb 
 
     quit
@@ -58,21 +59,18 @@ or
 
     q
 
-![quit_gdb](blob:https://stackedit.io/7a44d83b-15ac-499b-99b2-a03984d478ea)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171324/quit_gdb.png">
+
 ### Compile the code
 
     gcc -std=c99 -g -o test test.C
-
-![306](blob:https://stackedit.io/6b379c0b-28f9-4bcf-9d10-3ae4cd42e017)
-
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171445/306.webp">
 ตอนนี้คอมไพล์โค้ด (ที่นี่ test.c) g flag  หมายความว่าสามารถเห็นชื่อที่เหมาะสมของตัวแปรและฟังก์ชันในเฟรมStack รับหมายเลขบรรทัด และดูแหล่งที่มาในขณะที่คุณก้าวไปรอบ ๆ ในไฟล์ปฏิบัติการ -std=C99 flag  หมายถึงใช้มาตรฐาน C99  เพื่อคอมไพล์โค้ด -o flag  เขียนผลลัพธ์การสร้างไปยังไฟล์เอาต์พุต
 
 ### Run GDB with the generated executable
 
     gdb ./test
-
-![307](blob:https://stackedit.io/cc81d379-cee7-4379-bfe5-926d5aa8cdd3)
-
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171511/307.webp">
 ## Useful GDB commands:
 
 Here are a few useful commands to get started with GDB.
@@ -94,31 +92,35 @@ Here are a few useful commands to get started with GDB.
 
 - เพื่อแสดง code ใช้คำสัง `l`
 
-![list-1](blob:https://stackedit.io/8e101c4d-f8c9-41ea-bf6a-6d9133e262e5)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171542/list-1.png">
+
 - ตั่งค่าBreakpoint ใช้คำสัง `b`
 
-![breakpoint](blob:https://stackedit.io/3ac80214-7c02-455b-99d2-dae23ff87276)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171607/breakpoint.png">
+
 - ดูBreakpoint ใช้คำสัง  `info b`
 
-![info_b](blob:https://stackedit.io/62b1631f-fa0f-4c32-96ad-270f719f036b)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171636/info_b.png">
+
 - ปิดใช้งานBreakpoint ใช้คำสัง ` disable b`
 
-![disable](blob:https://stackedit.io/9c24f7b0-f0fa-421a-8ef2-8bc322e54c8b)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171701/disable.png">
+
 - เปิดใช้งานBreakpoint ปิดใช้งาน ใช้คำสัง ` enable b`
 
-![enable-1](blob:https://stackedit.io/1da535f2-5790-47c7-ab5d-a184f5914cd1)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171730/enable-1.png">
+
 - Run the code ใช้คำสั่ง `r`
 
-![first_run](blob:https://stackedit.io/0c1ae471-55ba-43c6-866b-8147520453f0)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171817/first_run.png">
 
 - print ค่าตัวแปรใช้คำสั่ง `p`
 
-![print_value_x](blob:https://stackedit.io/02493aaf-619a-454c-8dc3-f9a2170cf40d)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171846/print_value_x.png">
 
 ## Debugging output
 ภาพหน้าจอด้านล่างแสดงค่าของตัวแปรซึ่งค่อนข้างเข้าใจได้ว่าผลลัพธ์ที่เกิดขึ้น ในทุกการดําเนินการของ ./test  เราจะได้รับผลลัพธ์ที่แตกต่างกัน
-
-![308](blob:https://stackedit.io/d57c7868-0d58-4973-b1b5-e486aaa48d65)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171923/308.webp">
 
 ## บทสรุป
 
