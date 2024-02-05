@@ -51,6 +51,7 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 `GDB`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 Gdb open prompt  แจ้งให้คุณทราบว่าพร้อมสําหรับคําสั่งแล้ว 
@@ -62,12 +63,14 @@ or
     q
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171324/quit_gdb.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 ### Compile the code
 
     gcc -std=c99 -g -o test test.C
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171445/306.webp">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 ตอนนี้คอมไพล์โค้ด (ที่นี่ test.c) g flag  หมายความว่าสามารถเห็นชื่อที่เหมาะสมของตัวแปรและฟังก์ชันในเฟรมStack รับหมายเลขบรรทัด และดูแหล่งที่มาในขณะที่คุณก้าวไปรอบ ๆ ในไฟล์ปฏิบัติการ -std=C99 flag  หมายถึงใช้มาตรฐาน C99  เพื่อคอมไพล์โค้ด -o flag  เขียนผลลัพธ์การสร้างไปยังไฟล์เอาต์พุต
 
@@ -75,6 +78,7 @@ or
 
     gdb ./test
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171511/307.webp">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 ## Useful GDB commands:
@@ -99,41 +103,49 @@ commands เบื้องต้นเพื่อใช้ GDB.
 - เพื่อแสดง code ใช้คำสัง `l`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171542/list-1.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 - ตั่งค่าBreakpoint ใช้คำสัง `b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171607/breakpoint.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 - ดูBreakpoint ใช้คำสัง  `info b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171636/info_b.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 - ปิดใช้งานBreakpoint ใช้คำสัง ` disable b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171701/disable.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 - เปิดใช้งานBreakpoint ปิดใช้งาน ใช้คำสัง ` enable b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171730/enable-1.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 - Run the code ใช้คำสั่ง `r`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171817/first_run.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 - print ค่าตัวแปรใช้คำสั่ง `p`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171846/print_value_x.png">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 ## Debugging output
 ภาพหน้าจอด้านล่างแสดงค่าของตัวแปรซึ่งค่อนข้างเข้าใจได้ว่าผลลัพธ์ที่เกิดขึ้น ในทุกการดําเนินการของ ./test  เราจะได้รับผลลัพธ์ที่แตกต่างกัน
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171923/308.webp">
+
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
 ## บทสรุป
