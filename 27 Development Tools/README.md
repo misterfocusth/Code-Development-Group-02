@@ -54,7 +54,7 @@ IDE ช่วยให้นักพัฒนาทำการทดสอบ�
 
  พิมพ์คำสั่ง
 
-     # dnf groupinstall “Server with GUI”
+     # dnf groupinstall "Server with GUI"
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*9PMPkSCd0xwY-mDMalhkMQ.png)
 
