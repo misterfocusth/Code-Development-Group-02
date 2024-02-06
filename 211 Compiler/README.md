@@ -19,19 +19,19 @@
 4.  **รันโปรแกรม:** รัน executable ที่ได้:
     `./myprogram`
 
-**ตัวอย่างการ Compile โปรแกรมภาษา C**
+**ตัวอย่างการ Compile โปรแกรมภาษา C** 5. บันทึกโค้ดข้างต้นในไฟล์ `helloworld.c`  
+ ` #include <stdio.h>
+    int main() {
+      printf("Hello, world!\n");
+      return 0;
+    }`
 
-1. บันทึกโค้ดข้างต้นในไฟล์ `helloworld.c`  
-   ` #include <stdio.h>
- int main() {
-   printf("Hello, world!\n");
-   return 0;
- }`
+6.  Compile โปรแกรมด้วยคำสั่ง `gcc -o hello helloworld.c`
+7.  รันโปรแกรมด้วยคำสั่ง `./helloworld.c`
 
-2. Compile โปรแกรมด้วยคำสั่ง `gcc -o hello helloworld.c`
-3. รันโปรแกรมด้วยคำสั่ง `./helloworld.c`
-   ![วิธีการ Compile โปรแกรมภาษา C ด้วย GNU Compiler (GCC)](https://www.wikihow.com/images_en/thumb/a/ae/Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg/v4-460px-Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg.webp)
-   รูปภาพจาก : https://www.wikihow.com/images_en/thumb/a/ae/Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg/v4-460px-Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg.webp
+![วิธีการ Compile โปรแกรมภาษา C ด้วย GNU Compiler (GCC)](https://www.wikihow.com/images_en/thumb/a/ae/Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg/v4-460px-Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg.webp)
+
+รูปภาพจาก : https://www.wikihow.com/images_en/thumb/a/ae/Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg/v4-460px-Compile-a-C-Program-Using-the-GNU-Compiler-%28GCC%29-Step-16-Version-2.jpg.webp
 
 การ Compile โปรแกรมใน Linux เป็นกระบวนการที่ไม่ซับซ้อน แต่จำเป็นต้องเข้าใจคำศัพท์พื้นฐาน ขั้นตอน และองค์ประกอบต่างๆ เพื่อศึกษาเพิ่มเติมเกี่ยวกับ Compiler และตัวเลือกต่างๆ เพื่อ Compile โปรแกรมได้อย่างมีประสิทธิภาพ
 
@@ -69,11 +69,17 @@ Compiler มีบทบาทสำคัญในการพัฒนาซ�
 
 1.  **GDB (GNU Debugger):** GDB เป็นเครื่องมือ Debugging ที่มีความทันสมัยและมีความสามารถมาก สามารถใช้ร่วมกับโปรแกรมที่ถูก Compile ด้วย GCC
     ![Debugging with GDB on STM32 — Dev documentation](https://ardupilot.org/dev/_images/DebuggingWithGDB-startGBD.png)
+
     รูปภาพจาก : https://ardupilot.org/dev/_images/DebuggingWithGDB-startGBD.png
+
 2.  **Valgrind:** Valgrind เป็นเครื่องมือที่ช่วยในการตรวจสอบ Memory Leaks และปัญหาที่เกี่ยวข้องกับการจัดการหน่วยความจำ
     ![What is Valgrind and why we need it](https://alexott.net/common/writings/prog-checking/kcachegrind-callgrind.png)
+
 3.  **strace:** เครื่องมือนี้ใช้ตรวจสอบการเรียกใช้ระบบ (system calls) ของโปรแกรม, มีประโยชน์ในการตรวจสอบปัญหาที่เกี่ยวข้องกับ I/O หรือการทำงานของโปรแกรม
     ![Strace command in Linux with Examples - GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/uploads/20200424053041/Screenshot-from-2020-04-24-05-30-20.png)
+
+รูปภาพจาก : https://media.geeksforgeeks.org/wp-content/uploads/20200424053041/Screenshot-from-2020-04-24-05-30-20.png
+
 4.  **Print Statements:** การใช้คำสั่ง print หรือ log statements ในโค้ดเพื่อติดตามการทำงานของโปรแกรมและค้นหาข้อผิดพลาด
 
 ### เทคนิคในการ Debug:
