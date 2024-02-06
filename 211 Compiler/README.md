@@ -68,6 +68,7 @@ Compiler มีบทบาทสำคัญในการพัฒนาซ�
 ### เครื่องมือในการ Debug:
 
 1.  **GDB (GNU Debugger):** GDB เป็นเครื่องมือ Debugging ที่มีความทันสมัยและมีความสามารถมาก สามารถใช้ร่วมกับโปรแกรมที่ถูก Compile ด้วย GCC
+
     ![Debugging with GDB on STM32 — Dev documentation](https://ardupilot.org/dev/_images/DebuggingWithGDB-startGBD.png)
 
     รูปภาพจาก : https://ardupilot.org/dev/_images/DebuggingWithGDB-startGBD.png
