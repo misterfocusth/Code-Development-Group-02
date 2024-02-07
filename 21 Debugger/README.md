@@ -60,6 +60,8 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 
 เพื่อติดตั้ง Packets gdb
 
+<img src="img/apt.png">
+
  ### เริ่มต้นgdb
 `GDB`
 
@@ -70,10 +72,10 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 Gdb open prompt  แจ้งให้ทราบว่าพร้อมสําหรับคําสั่งแล้ว 
 ### หากต้องการออกจาก gdb 
 
-    quit
+`quit`
 or
 
-    q
+`q`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171324/quit_gdb.png">
 
@@ -81,7 +83,7 @@ or
 
 ### Compile the code
 
-    gcc -std=c99 -g -o test test.C
+`gcc -std=c99 -g -o test test.C`
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171445/306.webp">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
@@ -89,7 +91,7 @@ or
 
 ### Run GDB with the generated executable
 
-    gdb ./test
+`gdb ./test`
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171511/307.webp">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
