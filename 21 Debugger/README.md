@@ -62,6 +62,8 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 
 <img src="img/apt.png">
 
+> ที่มา: https://ioflood.com/blog/install-gdb-command-linux/
+
  ### เริ่มต้นgdb
 `GDB`
 
@@ -73,6 +75,7 @@ Gdb open prompt  แจ้งให้ทราบว่าพร้อมสํ
 ### หากต้องการออกจาก gdb 
 
 `quit`
+
 or
 
 `q`
@@ -84,6 +87,7 @@ or
 ### Compile the code
 
 `gcc -std=c99 -g -o test test.C`
+
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171445/306.webp">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
@@ -92,6 +96,7 @@ or
 ### Run GDB with the generated executable
 
 `gdb ./test`
+
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171511/307.webp">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
@@ -169,11 +174,15 @@ GDB (GNU Debugger)  ซึ่งเป็นเครื่องมือที
 
 ## References
 
-https://iot-kmutnb.github.io/blogs/training/gcc_linux/
+- https://iot-kmutnb.github.io/blogs/training/gcc_linux/
 
-https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+- https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-https://www.scaler.com/topics/linux-debugger/
+- https://www.scaler.com/topics/linux-debugger/
 
-https://tips.thaiware.com/2059.html
+- https://tips.thaiware.com/2059.html
+
+- https://ioflood.com/blog/install-gdb-command-linux/
+
+- https://www.cherryservers.com/blog/sudo-apt-update#:~:text=The%20sudo%20apt%20update%20command%20is%20a%20Linux%2FDebian%20system,in%20the%20system%27s%20package%20index.
 
