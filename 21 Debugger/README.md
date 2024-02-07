@@ -73,14 +73,13 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 
  ## เริ่มต้นgdb
 
- Gdb open prompt  มีการแจ้งให้ทราบว่าพร้อมสําหรับการใช้คําสั่งแล้ว 
-
 `GDB`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
+ในการใช้คำสั่งนี้ Gdb open prompt  จะมีการแจ้งให้ทราบว่าพร้อมสําหรับการใช้คําสั่งแล้ว 
 ## หากต้องการออกจาก gdb 
 
 `quit`
