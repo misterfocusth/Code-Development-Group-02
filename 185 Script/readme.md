@@ -51,6 +51,7 @@ echo "Hello World"
 ### กำหนดสิทธิ์ในการเรียกใช้ script
 ไฟล์ script ที่เพิ่งสร้างมา จะยังไม่สามารถเรียกใช้ได้ โดยจะขึ้นว่า `Permission denied`
 <img src="./image/permission-denined.png">
+
 โดยสามารถเปลี่ยน Permission ได้โดยใช้คำสั่ง `chmod [ u / g / o ][ + / - ][ r / w / x] filename` โดยแต่ละตัวมีความหมายดังนี้
 |ตัวอักษร|ประเภท|ความหมาย|
 |---|---|---|
