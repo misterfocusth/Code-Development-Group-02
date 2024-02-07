@@ -45,15 +45,16 @@ Advanced debuggers  บางตัวรองรับ  post-mortem analysis  
 
 GDB ย่อมาจาก GNU Project Debugger และเป็นเครื่องมือDebugที่ทรงพลังสําหรับ C (พร้อมกับภาษาอื่นๆ เช่น C++) มันช่วยให้สามารถเข้าไปข้างในโปรแกรม C ของคุณในขณะที่กําลังดําเนินการ และยังช่วยให้เห็นว่าจะเกิดอะไรขึ้นเมื่อโปรแกรมขัดข้อง GDB ทํางานบนไฟล์ปฏิบัติการซึ่งเป็นไฟล์ Binary ที่ผลิตโดยกระบวนการรวบรวม
 
-## การใช้งาน
+# การใช้งาน
 
-### การติดตั้งการใช้งาน GDB
+## การติดตั้งการใช้งาน GDB
 
 ใช้คำสั่ง
 
 `sudo apt update`
 
 เพื่อ Update รายการ Packets ที่มีอยู่
+
 ต่อมาใช้คำสั่ง
 
 `sudo apt install gdb`
@@ -64,15 +65,17 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 
 > ที่มา: https://ioflood.com/blog/install-gdb-command-linux/
 
- ### เริ่มต้นgdb
+ ## เริ่มต้นgdb
+
+ Gdb open prompt  แจ้งให้ทราบว่าพร้อมสําหรับคําสั่งแล้ว 
+
 `GDB`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171225/304.webp">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-Gdb open prompt  แจ้งให้ทราบว่าพร้อมสําหรับคําสั่งแล้ว 
-### หากต้องการออกจาก gdb 
+## หากต้องการออกจาก gdb 
 
 `quit`
 
@@ -84,16 +87,17 @@ or
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-### Compile the code
+## Compile the code
 
 `gcc -std=c99 -g -o test test.C`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171445/306.webp">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+
 ตอนนี้คอมไพล์โค้ด (ที่นี่ test.c) g flag  หมายความว่าสามารถเห็นชื่อที่เหมาะสมของตัวแปรและฟังก์ชันในเฟรมStack รับหมายเลขบรรทัด และดูแหล่งที่มาในขณะที่ก้าวไปรอบ ๆ ในไฟล์ปฏิบัติการ -std=C99 flag  หมายถึงใช้มาตรฐาน C99  เพื่อคอมไพล์โค้ด -o flag  เขียนผลลัพธ์การสร้างไปยังไฟล์เอาต์พุต
 
-### Run GDB with the generated executable
+## Run GDB with the generated executable
 
 `gdb ./test`
 
