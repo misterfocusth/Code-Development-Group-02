@@ -9,11 +9,11 @@
 
 **Breakpoints:**
 
-Developer สามารถตั้งค่า Breakpoint ที่บรรทัดเฉพาะของโค้ดหรือเงื่อนไขที่เมื่อมีการtrigger จะหยุดการทํางานของโปรแกรมชั่วคราว สิ่งนี้ทําให้สามารถตรวจสอบสถานะของโปรแกรมได้อย่างรอบคอบ ณ จุดนั้น ๆ
+Developer สามารถตั้งค่า Breakpoint ที่บรรทัดเฉพาะของโค้ดหรือเงื่อนไขที่เมื่อมีการ trigger จะหยุดการทํางานของโปรแกรมชั่วคราว สิ่งนี้ทําให้สามารถตรวจสอบสถานะของโปรแกรมได้อย่างรอบคอบ ณ จุดนั้น ๆ
 
 **Stepping:**
 
-Debugger มีตัวเลือกสําหรับการก้าวผ่านโค้ด ทําให้ Developer สามารถดําเนินการโปรแกรมทีละบรรทัดได้ สิ่งนี้ช่วยในการทําความเข้าใจขั้นตอนการดําเนินการและการระบุปัญหาได้ดียิ่งขึ้น
+Debugger มีตัวเลือกสําหรับการทำให้ Code ทำงานทีละบรรทัด ทําให้ Developer สามารถดําเนินการโปรแกรมทีละบรรทัดได้ สิ่งนี้ช่วยในการทําความเข้าใจขั้นตอนการดําเนินการและการระบุปัญหาได้ดียิ่งขึ้น
 
 **Variable Inspection:**
 
@@ -41,9 +41,9 @@ Advanced debuggers  บางตัวรองรับ  post-mortem analysis  
 
 # คำสังที่ใช้ในการ  Debugger
 
-## GNU Debugger(GDB)
+## GNU Debugger (GDB)
 
-GDB ย่อมาจาก GNU Project Debugger และเป็นเครื่องมือDebugที่ทรงพลังสําหรับ C (พร้อมกับภาษาอื่นๆ เช่น C++) มันช่วยให้สามารถเข้าไปข้างในโปรแกรม C ของคุณในขณะที่กําลังดําเนินการ และยังช่วยให้เห็นว่าจะเกิดอะไรขึ้นเมื่อโปรแกรมขัดข้อง GDB ทํางานบนไฟล์ปฏิบัติการซึ่งเป็นไฟล์ Binary ที่ผลิตโดยกระบวนการรวบรวม
+GDB ย่อมาจาก GNU Project Debugger และเป็นเครื่องมือ Debug สําหรับ C (พร้อมกับภาษาอื่นๆ เช่น C++) มันช่วยให้สามารถเข้าไปข้างในโปรแกรม C ในขณะที่กำลัง executing และยังช่วยให้เห็นว่าจะเกิดอะไรขึ้นเมื่อโปรแกรมขัดข้อง GDB ทํางานบน executable files ซึ่งเป็นไฟล์ Binary ที่ผลิตโดย Compilation process
 
 # การใช้งาน
 
@@ -65,9 +65,15 @@ GDB ย่อมาจาก GNU Project Debugger และเป็นเคร
 
 > ที่มา: https://ioflood.com/blog/install-gdb-command-linux/
 
+เช็ค Version และความพร้อมในการใช้งาน
+
+<img src="img/ver.png">
+
+> ที่มา: https://ioflood.com/blog/install-gdb-command-linux/
+
  ## เริ่มต้นgdb
 
- Gdb open prompt  แจ้งให้ทราบว่าพร้อมสําหรับคําสั่งแล้ว 
+ Gdb open prompt  มีการแจ้งให้ทราบว่าพร้อมสําหรับการใช้คําสั่งแล้ว 
 
 `GDB`
 
@@ -87,17 +93,8 @@ or
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-## Compile the code
 
-`gcc -std=c99 -g -o test test.C`
-
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171445/306.webp">
-
-> ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
-
-ตอนนี้คอมไพล์โค้ด (ที่นี่ test.c) g flag  หมายความว่าสามารถเห็นชื่อที่เหมาะสมของตัวแปรและฟังก์ชันในเฟรมStack รับหมายเลขบรรทัด และดูแหล่งที่มาในขณะที่ก้าวไปรอบ ๆ ในไฟล์ปฏิบัติการ -std=C99 flag  หมายถึงใช้มาตรฐาน C99  เพื่อคอมไพล์โค้ด -o flag  เขียนผลลัพธ์การสร้างไปยังไฟล์เอาต์พุต
-
-## Run GDB with the generated executable
+## เรียกใช้ GDB ด้วย generated executable
 
 `gdb ./test`
 
@@ -130,25 +127,25 @@ commands เบื้องต้นเพื่อใช้ GDB.
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-- ตั่งค่าBreakpoint ใช้คำสัง `b`
+- ตั้งค่า Breakpoint ใช้คำสัง `b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171607/breakpoint.png">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-- ดูBreakpoint ใช้คำสัง  `info b`
+- ดู Breakpoint ใช้คำสัง  `info b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171636/info_b.png">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-- ปิดใช้งานBreakpoint ใช้คำสัง ` disable b`
+- ปิดใช้งาน Breakpoint ใช้คำสัง ` disable b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171701/disable.png">
 
 > ที่มา: https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
 
-- เปิดใช้งานBreakpoint ปิดใช้งาน ใช้คำสัง ` enable b`
+- เปิดใช้งาน Breakpoint ที่ Disable ไว้ ใช้คำสัง ` enable b`
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231215171730/enable-1.png">
 
@@ -174,7 +171,7 @@ commands เบื้องต้นเพื่อใช้ GDB.
 
 ## บทสรุป
 
-GDB (GNU Debugger)  ซึ่งเป็นเครื่องมือที่ทรงพลังใน Linux  ที่ใช้สําหรับการ Debug โปรแกรม C เราสามารถคอมไพล์โค้ดด้วยข้อมูลการ Debug เรียกใช้ GDB  ตั้งค่าเบรกพอยต์ ตรวจสอบตัวแปร และวิเคราะห์พฤติกรรมของโปรแกรม เรายังได้กล่าวถึงคุณสมบัติของ GDB  เช่น การตรวจสอบโค้ด การจัดการ Breakpoint การจัดการตัวแปร และการควบคุมการดําเนินการของโปรแกรม ซึ่งช่วยให้เราสามารถ Debug และแก้ไขปัญหาได้อย่างมีประสิทธิภาพ
+GDB (GNU Debugger)  ซึ่งเป็นเครื่องมือใน Linux  ที่ใช้สําหรับการ Debug โปรแกรม C เราสามารถ Compile โค้ดด้วยข้อมูลการ Debug เรียกใช้ GDB  ตั้งค่า Breakpoint ตรวจสอบตัวแปร และวิเคราะห์พฤติกรรมของโปรแกรม i;,รวมถึงได้กล่าวถึงคุณสมบัติของ GDB  เช่น การตรวจสอบโค้ด การจัดการ Breakpoint การจัดการตัวแปร และการควบคุมการดําเนินการของโปรแกรม ซึ่งช่วยให้เราสามารถ Debug และแก้ไขปัญหาได้อย่างมีประสิทธิภาพ
 
 ## References
 
