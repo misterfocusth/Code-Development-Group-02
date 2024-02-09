@@ -55,8 +55,17 @@ Compiler เป็นโปรแกรมที่แปลงโค้ดภ�
 ### Compiler ที่นิยมใน Linux:
 
 1.  **GCC (GNU Compiler Collection):** เป็น Compiler ที่ทั่วไปและทรงพลังที่สามารถ Compile โปรแกรมที่เขียนด้วยภาษา C, C++, Fortran, และอื่น ๆ ได้
+
+    ![Top (Using the GNU Compiler Collection (GCC))](https://gcc.gnu.org/onlinedocs/gcc/_static/logo.svg)
+
 2.  **Clang:** Compiler ที่พัฒนาโดย LLVM Project ซึ่งสามารถ Compile ภาษา C, C++, Objective-C, และ Objective-C++ ได้. Clang มีความเร็วและมีความแม่นยำในการรายงานข้อผิดพลาด
+
+    ![What is Clang and How Does it Work? | Incredibuild](https://www.incredibuild.com/wp-content/uploads/2021/03/Clang01.png)
+
 3.  **Intel Compiler:** Compiler ที่พัฒนาโดยบริษัท Intel สำหรับ Compile โปรแกรมที่ใช้ Intel Architecture หรือสำหรับการประมวลผลข้อมูลขนาดใหญ่
+
+![Intel C++ Compiler](https://www.qbssoftware.com/image/cache/catalog/Product%20Logos/Intel/INTEL-550x550.png)
+
 4.  **GCCGO:** Compiler สำหรับภาษา Go (Golang) ที่เป็นส่วนหนึ่งของ GNU Compiler Collection
 
 Compiler มีบทบาทสำคัญในการพัฒนาซอฟต์แวร์บน Linux การเลือก Compiler ที่เหมาะสมและใช้งานตัวเลือกต่างๆ อย่างถูกต้อง จะช่วยให้ Compile โปรแกรมได้อย่างมีประสิทธิภาพ
@@ -154,16 +163,20 @@ sudo apt install gcc-arm-linux-gnueabihf
 2.  Compile โปรแกรม:
 
 ```
-gcc -mcpu=arm1176jzf-s -o hello hello.c
+gcc -mcpu=arm1176jzf-s -o helloworld helloworld.c
 ```
 
 3.  รันโปรแกรมบน Raspberry Pi:
 
 ```
-./hello
+./helloworld
 ```
 
 **ผลลัพธ์:** โปรแกรมทำงานบน Raspberry Pi
+
+![Cross-Compiling for Raspberry Pi](https://www.kitware.com/blog_archives/files/6_1466640654.png)
+
+รูปภาพจาก : https://www.kitware.com/blog_archives/files/6_1466640654.png
 
 ### ข้อควรระวัง
 
@@ -247,19 +260,13 @@ Jenkins เป็นเครื่องมือที่ใช้ในกา
 
 - **Debian/Ubuntu:**
 
-  bashCopy code
-
   `sudo apt-get install ชื่อโปรแกรม`
 
 - **Red Hat/CentOS:**
 
-  bashCopy code
-
   `sudo yum install ชื่อโปรแกรม`
 
 - **Arch Linux:**
-
-  bashCopy code
 
   `sudo pacman -S ชื่อโปรแกรม`
 
