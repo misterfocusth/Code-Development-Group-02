@@ -4,91 +4,139 @@
 
  - [IDE](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#ide-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3)
  - [Eclipse](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#eclipse-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-)
- - [Library](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%81%E0%B8%B1%E0%B8%9Alibrary%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%83%E0%B8%99-linux)
+ - [Library](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%81%E0%B8%B1%E0%B8%9A-library-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%83%E0%B8%99-linux)
 
-## IDE คืออะไร  
-IDE ย่อมาจาก Integrated Development Environment คือ เครื่องมือที่ช่วยในการพัฒนาโปรแกรมโดยมีสิ่งอำนวยความสะดวกต่างๆ เช่น คำสั่ง Compile, Run ตัวอย่างของ IDE เช่น [NetBeans](https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/2239-netbeans-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html "NetBeans คืออะไร เน็ตบีนส์ คือโปรแกรมสำหรับพัฒนาแอพพลิเคชั่นด้วยภาษาจาวา::NetBeans...") [Editplus](https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/2234-editplus-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html "Editplus คือโปรแกรม text editor ใช้สำหรับเขียนและแก้ไข source code::Editplus คืออะไร..."), JCreator, [Eclipse](https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/2240-eclipse-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html "Eclipse คืออะไร อีคิปส์ คือโปรแกรมที่ใช้สำหรับพัฒนาภาษา JAVA ::Eclipse คืออะไร      Eclipse...") แต่ Notepad ไม่นับว่าเป็น IDE เนื่องจากตัว Notepad เองไม่มีเครื่องมืออำนวยความสะดวกสำหรับการเขียนโปรแกรมใดๆ เลย IDE เป็นโปรแกรมที่รวมคำสั่ง เมนู และ GUI ต่างมาสร้างเป็นโปรแกรมที่มีรูปร่างหน้าตาเหมาะแก่การเขียนโปรแกรม หรือพูดอีกอย่างว่า เป็นโปรแกรมที่จะสร้างสภาพแวดล้อม(environment) ให้เหมาะแก่การเขียนโปรแกรม  
-หน้าที่ของโปรแกรม IDE คือการเปิดไฟล์ที่เขียนภาษาโปรแกรม เช่นภาษา C, Pascal, [Java](https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/2185-java-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html "Java คืออะไร จาวา คือภาษาคอมพิวเตอร์ สำหรับเขียนโปรแกรมเชิงวัตถุ::Java คืออะไร     Java หรือ...") และเซ็ตข้อมูลการคอมไพล์โปรแกรมเก็บไว้ในไฟล์โปรเจคต์ รวมถึงจัดการ Directory และมีปุ่มสร้างโปรแกรมแบบกดทีเดียวทำงานอัตโนมัติจนเสร็จ โปรแกรม IDE 1 โปรแกรม มักจะมีความสามารถเฉพาะบางภาษา ตัวอย่างเช่น โปรแกรมตระกูล Visual ของบริษัทไมโครซอฟท์ ที่มี Visual Basic สำหรับภาษาเบสิค Visual C++ สำหรับภาษา [C++](https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/2183-c++-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html "C++ คืออะไร ซีพลัสพลัส คือ ภาษาในการเขียนโปรแกรมคอมพิวเตอร์ เป็นภาษาที่พัฒนามาจากภาษาซี::C++ คืออะไร     C++ คือ...") 
+## IDE คืออะไร
 
-## เหตุใด IDE จึงมีความสำคัญ
-คุณสามารถใช้โปรแกรมแก้ไขข้อความในการเขียนโค้ด อย่างไรก็ตาม สภาพแวดล้อมสำหรับการพัฒนาแบบเบ็ดเสร็จ (IDE) ส่วนใหญ่มีฟังก์ชันการทำงานที่นอกเหนือไปจากการแก้ไขข้อความ มันมีอินเทอร์เฟซส่วนกลางสำหรับเครื่องมือทั่วไปของนักพัฒนา ทำให้กระบวนการพัฒนาซอฟต์แวร์มีประสิทธิภาพมากขึ้น นักพัฒนาสามารถเริ่มเขียนโปรแกรมแอปพลิเคชันใหม่ได้อย่างรวดเร็ว แทนที่จะต้องทำการผสานและกำหนดค่าซอฟต์แวร์ต่างๆ ด้วยตนเอง พวกเขาไม่จำเป็นต้องเรียนรู้เกี่ยวกับเครื่องมือทั้งหมด แต่มุ่งเน้นไปที่แอปพลิเคชันแทน ต่อไปนี้คือเหตุผลบางอย่างที่นักพัฒนาเลือกใช้ IDE
+IDE หรือ Integrated Development Environment คือ software ที่รวมเอา software ที่จำเป็นในการเขียนโปรแกรมมาอยู่ในที่เดียวกัน นั่นคือ โดยปกติแล้วเวลาที่เราจะเขียนโปแกรมอะไรสักอย่างนั้น เราต้องใช้ software หลายตัวร่วมด้วยช่วยกัน เช่น
 
-### มีการแก้ไขโค้ดอัตโนมัติ
-ภาษาโปรแกรมมีกฎเกณฑ์ชัดว่าต้องจัดโครงสร้างคำสั่งอย่างไร เนื่องจาก IDE รู้จักกฎเหล่านี้ จึงมีคุณสมบัติเด่นๆ อยู่มากมายในการเขียนหรือแก้ไขซอร์สโค้ดโดยอัตโนมัติ
+1.  text editor คือ software ที่เราใช้เขียน code โดยใช้ software อะไรก็ได้ ที่เขียนตัวหนังสือลงไปได้
+2.  compiler คือ software ที่ทำหน้าที่ แปลภาษาที่เราเขียน ซึ่งอาจเป็นภาษา c/c++ หรือภาษาอื่น ๆ ให้เป็นภาษาเครื่อง ที่ computer หรือ microcontroller เข้าใจ ซึ่ง compiler ก็มีหลายตัว ขึ้นอยู่กับว่าเราจะเขียนภาษาอะไร และ โปรแกรมที่เราเขียนนั้นจะไปใช้บนอะไร หรือ microcontroller ตัวไหน
+3.  linker คือ software ที่ทำหน้าที่เชื่อม code ที่ compile แล้วเข้าด้วยกันในกรณีที่เราใช้ library
+4.  uploader หรือ programmer คือ software ที่ทำหน้าที่ upload code ที่ compile และ link เสร็จเรียบร้อยแล้ว ใส่เข้าไปใน microcontroller
+5.  debugger คือ software ที่ทำหน้าที่ช่วยให้เราเห็น register หรือ memory หรือ สถานการณ์ทำงานของโปรแกรมที่เราเขียนว่าทำงานอย่างไร ช่วยให้เราหาจุดบกพร่องและแก้ปัญหาได้ง่ายขึ้น
 
-### ทำการเน้นรูปแบบ
-IDE สามารถจัดรูปแบบข้อความที่เขียนโดยทำให้บางคำเป็นตัวหนาหรือตัวเอียงโดยอัตโนมัติ หรือโดยใช้สีตัวอักษรที่แตกต่างกัน วิธีที่ทำให้มองเห็นง่ายเหล่านี้ทำให้อ่านซอร์สโค้ดง่ายขึ้นและให้ข้อเสนอแนะเกี่ยวกับข้อผิดพลาดในรูปแบบโดยไม่ได้ตั้งใจได้ทันที
+ในบางระบบ อาจมีมากกว่าหรือน้อยกว่านี้บ้าง จะเห็นว่ากว่าจะเขียนโปรแกรมจนใช้งานได้นั้นมีขั้นตอน และ software ที่เกี่ยวข้องหลายตัว ดังนั้นเพื่อความสะดวกจึงได้มีการสร้าง software เพื่อรวมการเรียกใช้ software เหล่านี้เข้าด้วยกัน ซึ่งก็คือ IDE หรือ Integrated Development Environment นั่นเอง
 
-### การเติมโค้ดอัจฉริยะให้สมบูรณ์
-คำค้นหาต่างๆ จะปรากฏขึ้นเมื่อคุณเริ่มพิมพ์คำในเครื่องมือค้นหา ในทำนองเดียวกัน IDE สามารถให้คำแนะนำในการกรอกคำสั่งโค้ดเมื่อนักพัฒนาเริ่มพิมพ์
+## คุณสมบัติหลักที่สำคัญของ IDE
 
-### รองรับการปรับเปลี่ยน
-การกลับไปปรับปรุงโคัดเก่าที่เคยเขียนไว้ เป็นกระบวนการปรับโครงสร้างซอร์สโค้ดใหม่ เพื่อให้มีประสิทธิภาพและอ่านง่ายขึ้น โดยไม่ต้องเปลี่ยนฟังก์ชันการทำงานหลัก IDE สามารถทำการปรับปรุงโคัดเก่าโดยอัตโนมัติได้ในระดับหนึ่ง ทำให้นักพัฒนาปรับปรุงโค้ดได้อย่างรวดเร็วและง่ายดาย สมาชิกในทีมคนอื่นๆ เข้าใจโค้ดที่อ่านได้เร็วกว่า ซึ่งสนับสนุนการทำงานร่วมกันภายในทีม
+### 1. Code Editor
 
-### การสร้างระบบอัตโนมัติในเครื่อง
+Code Editor หรือโปรแกรมที่ใช้สำหรับการเขียน แก้ไข และการจัดระเบียบโค้ด โดยตัว Code Editor จะมีคุณสมบัติหลักๆคือ  Syntax Highlighting ที่สามารถจัดรูปแบบโค้ดไม่ว่าจะเป็นความหนาบางของตัวอักษร การใช้สีเพื่อให้แยกส่วนของโค้ดได้ชัดเจนยิ่งขึ้น, Code Completion ช่วยในการเติมโค้ดหรือแนะนำคำสั่งโค้ดที่เรากำลังจะพิมพ์มาให้เลือกและ Code Snippets ที่สร้างชุดโค้ดสำเร็จรูปหรือโค้ดที่มีรูปแบบเดิมๆเพื่อให้สามารถเขียนโค้ดได้สะดวก รวดเร็วยิ่งขึ้น
 
-IDE เพิ่มประสิทธิภาพการทำงานของโปรแกรมเมอร์โดยดำเนินการพัฒนาที่ทำซ้ำได้ ซึ่งปกติจะเป็นส่วนหนึ่งของการเปลี่ยนแปลงโค้ด ต่อไปนี้คือตัวอย่างบางส่วนของงานการโค้ดตามปกติที่ IDE ดำเนินการ
+### 2. Build and Compilation Tools
 
-### การคอมไพล์
-IDE คอมไพล์หรือแปลงโค้ดเป็นภาษาที่เรียบง่ายซึ่งระบบปฏิบัติการสามารถเข้าใจได้ ภาษาโปรแกรมบางภาษาใช้การคอมไพล์แบบทันเวลาพอดี ซึ่ง IDE จะแปลงโค้ดที่มนุษย์สามารถอ่านได้เป็นโค้ดสำหรับเครื่อง จากภายในแอปพลิเคชัน
+IDE มีเครื่องมือสำหรับการ  Compiler และ Interpreter โค้ดที่เขียนด้วยภาษาโปรแกรมต่างๆ โดยจะทำการแปลงภาษาที่ผู้เขียนโปรแกรมเขียนขึ้นมาไปเป็นภาษาเครื่อง (Machine Language) ที่คอมพิวเตอร์เข้าใจได้แทน รวมถึงสามารถ Compiler โค้ดได้อัตโนมัติและตรวจหาข้อผิดพลาดที่ซ่อนอยู่ได้ทำให้นักพัฒนาตรวจจับและแก้ไขปัญหาได้อย่างรวดเร็ว
 
-### การทดสอบ
-IDE ช่วยให้นักพัฒนาทำการทดสอบหน่วยในเครื่องโดยอัตโนมัติ ก่อนที่ซอฟต์แวร์จะรวมเข้ากับโค้ดของนักพัฒนารายอื่น และเรียกใช้การทดสอบการรวมที่ซับซ้อนมากขึ้น
+### 3. Debugging Capabilities
 
-### การแก้จุดบกพร่อง
-การแก้จุดบกพร่องเป็นกระบวนการแก้ไขข้อผิดพลาดหรือจุดบกพร่องที่พบจากการทดสอบ สิ่งที่สำคัญที่สุดอย่างหนึ่งของ IDE ในการแก้จุดบกพร่องก็คือ คุณสามารถก้าวผ่านโค้ดทีละบรรทัด ขณะที่ทำการรันและตรวจสอบโค้ด IDE ยังรวมเครื่องมือแก้จุดบกพร่องหลายตัวที่ช่วยเน้นจุดบกพร่องที่เกิดจากความผิดพลาดของมนุษย์ในแบบเรียลไทม์ แม้ในขณะที่นักพัฒนากำลังพิมพ์อยู่
+Debuggers เป็นเครื่องมือสำหรับการแก้ไขข้อผิดพลาดหรือจุดบกพร่อง  (Debugging) ที่พบจากการทดสอบโค้ด  ฟังก์ชัน  Debugging ช่วยให้นักพัฒนาสามารถตั้ง  Breakpoints ตรวจสอบตัวแปร และติดตามการทำงานของโปรแกรมได้ ดังนั้นนักพัฒนาจึงมั่นใจได้ว่าโค้ดของพวกเขาจะสามารถทำงานได้ตามที่คาดหวังไว้.
 
-### วิธีการติดตั้ง GNOME Desktop เพื่อ enable GUI mode in RHEL 8
+### 4. Version Control Integration
 
-พิมพ์คำสั่ง 
+ IDE รวมตัวเข้ากับระบบ Version Control อย่าง [Git](https://www.ert.co.th/git-%e0%b9%81%e0%b8%a5%e0%b8%b0-github-%e0%b8%95%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%81%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%a2%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b9%84%e0%b8%a3/) ที่ทำให้นักพัฒนาจัดการ Codebase ได้อย่างมีประสิทธิภาพมากขึ้น ซึ่ง Version Control นอกจากจะช่วยให้นักพัฒนาติดตามการเปลี่ยนแปลงร่วมกันกับเพื่อนร่วมทีม ยังช่วยให้นักพัฒนาสามารถย้อนไฟล์บางไฟล์ก่อนหน้าได้หากเกิดข้อผิดพลาดขึ้น
 
-	# yum grouplist
-	
-หรือ
+### 5. Extensibility and Customization
 
-    # dnf grouplistode here
+IDE นำเสนอการทำงานผ่าน Plugins และ Extension ที่ช่วยพัฒนาประสิทธิภาพการทำงานของตัวมันเองรวมถึงรองรับภาษาโปรแกรม เฟรมเวิร์ก และเครื่องมือพิเศษอีกด้วย นอกจากนี้นักพัฒนายังสามารถปรับแต่ง IDE ของตัวเองได้โดยอาจจะเลือกชุดสีหรือแบบที่แตกต่างกันออกไปตามความชอบและ Workflow ที่เหมาะสม
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*16R9pEp9urnusI6e3WCoLA.png)
 
-*** dnf ย่อมาจาก dandified yum เริ่มใช้ใน RHEL 8 เพื่อแทนที่ yum
+## IDE ยอดนิยม
 
- พิมพ์คำสั่ง
+### 1. Visual Studio
+![Tricks and tips for VSCode Beginners | by Komal Khetlani | Dev Genius](https://miro.medium.com/v2/resize:fit:480/0*q_2SlZs2OUPK0Ujv.png)
 
-     # dnf groupinstall "Server with GUI"
+ที่มา: https://miro.medium.com/v2/resize:fit:480/0*q_2SlZs2OUPK0Ujv.png
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*9PMPkSCd0xwY-mDMalhkMQ.png)
+Visual Studio ประกอบไปด้วยคุณสมบัติและเครื่องมือที่หลากหลายในการสร้างหรือพัฒนาโปรแกรมสำเร็จรูปอย่างเว็บไซต์และแอปพลิเคชัน โดยระบบที่รองรับการทำงานนั้นมี Window, Pocket PC, Smartphoneและ  Web browser
 
-พิมพ์คำสั่ง # dnf grouplist เพื่อตรวจสอบอีกครั้ง
 
-    # dnf grouplist
-   ![](https://miro.medium.com/v2/resize:fit:1400/1*0ROwnRHLBiC_kVQbOwQraw.png)
+### 2. IntelliJ IDEA
+![What is Intellij IDEA - A Comprehensive Guide](https://www.simplilearn.com/ice9/free_resources_article_thumb/Intellij_IDEA.jpg)
+
+ที่มา: https://www.simplilearn.com/ice9/free_resources_article_thumb/Intellij_IDEA.jpg
+
+IDE เน้นการพัฒนา Java เป็นหลัก แต่ยังสามารถรองรับภาษาอื่นๆได้เช่น Kotlin, Scala, Dart, PHP ฟีเจอร์หลักๆของ IntelliJ IDEA ได้แก่ Code Completion และ Code Inspection เป็นต้น
+
+
+### 3. PyCharm
+![PyCharm's top features. [Hidden] qualities of one of the most… | by Nicolò  Gasparini | Analytics Vidhya | Medium](https://miro.medium.com/v2/resize:fit:2000/1*gYFLCqNfVX3qvwnoNwFFNA.png)
+
+ที่มา: https://miro.medium.com/v2/resize:fit:2000/1*gYFLCqNfVX3qvwnoNwFFNA.png
+
+IDE พิเศษสำหรับ Python ตั้งแต่การวิเคราะห์โค้ด การดีบัก และการทดสอบเฟรมเวิร์ก ด้วยความช่วยเหลืออันชาญฉลาดของ PyCharm ทำให้นักพัฒนาสามารถเพิ่มประสิทธิภาพการเขียนโค้ดของ Python ได้อย่างมาก
+
+## ตัวอย่างการติดตั้ง Desktop Environment “GNOME” ลงใน CentOS 7
+
+1. ก่อนที่เราจะติดตั้ง ให้ทำการ update ก่อน โดยใช้คำสั่ง
    
-   Enable GUI mode by using graphical.target (Starting with RHEL 7 used systemd targets instead of runlevel). The command to switch to GUI mode
-
-    # systemctl isolate graphical.target
-    # systemctl isolate <target>
-   
--   **graphical.target**  (GUI mode)
--   **multi-user.target**  (Command Line mode)
-
-ใส่ username และ password เพื่อ Login เข้าสู่ระบบ
-
-![](https://miro.medium.com/v2/resize:fit:1400/1*4FcKpRcfkI5UOh-tR34nTQ.png)
-
-หน้าตาของ Red Hat GUI mode
-
-![](https://miro.medium.com/v2/resize:fit:1400/1*MGA_o1megyhHyAd2CniDLg.png)
-
-Change default target to start RHEL/CentOS 8 Server with GUI at reboot
-ตรวจสอบ default target ของระบบที่ใช้อยู่
-
-    # systemctl get-default
-
-   เปลี่ยน default target ของระบบให้เป็น GUI mode
-   
-    # systemctl set-default graphical.target
+        # yum update -y
     
-![](https://miro.medium.com/v2/resize:fit:1400/1*YWmeXsFQaZzlKwUgdSkZsg.png)
+
+3. ใช้คำสั่งนี้เพื่อดู package groups ที่สามารถติดตั้งได้
+
+        # yum group list
+        #yum groupinstall “GNOME Desktop” “Graphical Administration Tools” -y
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-1.png
+
+3. โดยเราจะเลือก 3 package group Server with GUI, GNOME Desktop และ Graphical Administration Tools เพื่อลง GNOME โดยเราใช้คำสั่งด้านล่างนี้เพื่อติดตั้ง
+
+        #yum groupinstall “GNOME Desktop” “Graphical Administration Tools” -y
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-2.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-2.png
+
+4. ใช้คำสั่ง นี้เพื่อเปิดหน้า GUI 
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-6.png)
+
+    #startx
+
+ที่มา:  https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-6.png
+
+
+**Optional :** ถ้าเราอยากให้ตัว GNOME เปิดทันที หลังจาก reboot โดยไม่ต้องใช้คำสั่งด้านบน
+
+	#ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-4.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/terminal-4.png
+  
+
+5. หลังจากเปิด GNOME GUI ให้ทำการ Configure ของ ภาษา, เวลา, username และ password เท่านี้ก็เป็นอันเสร็จสิ้น พร้อมใช้งาน GNOME Desktop GUI
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/desktop-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/desktop-1.png
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/desktop2-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/desktop2-1.png
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3.5-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3.5-1.png
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3.6-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3.6-1.png
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3.7-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3.7-1.png
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/desktop3-1.png
+
+![](https://blog.readyidc.com/wp-content/uploads/2019/02/desktop4-1.png)
+
+ที่มา: https://blog.readyidc.com/wp-content/uploads/2019/02/desktop4-1.png
 
 ## Eclipse คืออะไร ?
 
@@ -100,150 +148,135 @@ Eclipse มีองค์ประกอบหลักที่เรียก
 
 ข้อดีของโปรแกรม Eclipse คือ ติดตั้งง่าย สามารถใช้ได้กับ J2SDK ได้ทุกเวอร์ชั่น รองรับภาษาต่างประเทศอีกหลายภาษา มี plugin ที่ใช้เสริมประสิทธิภาพของโปรแกรม สามารถทำงานได้กับไฟล์หลายชนิด เช่น HTML, Java, C, JSP, EJB, XML และ GIF และที่สำคัญเป็นฟรีเเวร์ ใช้งานได้กับระบบปฏิบัติการ Windows, Linux และ Mac OS
 
-### 1. ติดตั้ง Eclipse IDE ใน CentOS, RHEL และ Fedora
-ต้องใช้เวอร์ชัน Java 9 หรือสูงกว่าเพื่อติดตั้ง Eclipse IDE และวิธีที่ง่ายที่สุดในการติดตั้ง Oracle Java JDK จากที่เก็บเริ่มต้น
+## ขั้นตอนการติดตั้ง Eclipse บน Ubuntu
 
-    # yum install java-11-openjdk-devel
-    # java -version
-จากนั้น เปิดเบราว์เซอร์ ไปที่หน้าดาวน์โหลดอย่างเป็นทางการของ Eclipse และดาวน์โหลดเวอร์ชันล่าสุดของแพ็คเกจ tar เฉพาะสำหรับ## สถาปัตยกรรมการประมวลผลแบบกระจาย Linux ที่ติดตั้งของคุณ
-หรือคุณสามารถดาวน์โหลดไฟล์ตัวติดตั้ง  Eclipse IDE ในระบบของคุณผ่านทางยูทิลิตี้ **wget** โดยออกคำสั่งด้านล่าง
+Eclipse เป็น IDE ที่นิยมมากในปัจจุบัน วันนี้จะมานำเสนอวิธีติดตั้ง Eclipse สำหรับคนที่ใช้ Ubuntu ขั้นตอนการติดตั้ง Eclipse บน Ubuntu สามารถติดตั้งได้ 3 วิธี ดังนี้
 
-    # wget http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2020-06/R/eclipse-inst-linux64.tar.gz
-    
-หลังจากการดาวน์โหลดเสร็จสิ้น ให้ไปที่ไดเร็กทอรีที่มีการดาวน์โหลดแพ็คเกจไฟล์เก็บถาวร และใช้คำสั่งด้านล่างเพื่อเริ่มการติดตั้ง Eclipse IDE
+### ติดตั้งผ่าน Ubuntu Software Center
 
-    # tar -xvf eclipse-inst-linux64.tar.gz 
-    # cd eclipse-installer/
-    # sudo ./eclipse-inst
-    
-โปรแกรมติดตั้ง Eclipse แสดงรายการ IDE ที่ผู้ใช้ Eclipse ใช้ได้ คุณสามารถเลือกและคลิกที่แพ็คเกจ IDE ที่คุณต้องการติดตั้ง
+![ติดตั้งผ่าน Ubuntu Software Center](https://raw.githubusercontent.com/Devahoy/devahoy-assets/master/images/2014/03/ubuntu-software-center.png)
 
-![](https://th.linux-console.net/common-images/install-eclipse-ide-in-centos-rhel-fedora/Eclipse-Installer.png)
+ที่มา: https://raw.githubusercontent.com/Devahoy/devahoy-assets/master/images/2014/03/ubuntu-software-center.png
 
-จากนั้น เลือกโฟลเดอร์ที่คุณต้องการติดตั้ง Eclipse
+ขั้นตอนการติดตั้งก็เพียงแค่เปิด Ubuntu Software Center จากนั้น Search หาคำว่า 'Eclipse' วิธีการนี้ น่าจะเป็นวิธีการที่สะดวกที่สุด แต่ข้อเสียคือ จะไม่ใช่เวอร์ชั่นล่าสุด โดยเวอร์ชั่นที่สูงสุดใน Ubuntu Software Center คือ 3.8 แต่ปัจจุบัน Eclipse ออกเวอร์ชั่น Kepler 4.3 แล้ว
 
-![](https://th.linux-console.net/common-images/install-eclipse-ide-in-centos-rhel-fedora/Choose-Eclipse-IDE-Installation-Folder.png)
+### ติดตั้งผ่าน Command-Line
 
-เมื่อการติดตั้งเสร็จสิ้น คุณสามารถเปิดใช้ Eclipse ได้แล้ว
+ติดตั้งผ่าน Ubuntu Software Center เพียงแต่ไม่มีหน้าตา UI มาให้ แค่ใช้คำสั่งผ่าน command line แทน วิธีการติดตั้งคือ
 
-![](https://th.linux-console.net/common-images/install-eclipse-ide-in-centos-rhel-fedora/Launch-Eclipse-IDe.png)
+    sudo apt-get install eclipse
 
-![](https://th.linux-console.net/common-images/install-eclipse-ide-in-centos-rhel-fedora/Eclipse-IDE.png)
 
-### ติดตั้ง Eclipse IDE ผ่าน Snap บน Fedora
+![ผ่าน command-line](https://raw.githubusercontent.com/Devahoy/devahoy-assets/master/images/2014/03/terminal.png)
 
-Snap คือการจัดการแพ็คเกจซอฟต์แวร์ที่ใช้ในการติดตั้งแพ็คเกจของบุคคลที่สามบน Fedora Linux คุณสามารถใช้  snap เพื่อติดตั้ง Eclipse IDE บน Fedora โดยใช้คำสั่งต่อไปนี้
+ที่มา:  https://raw.githubusercontent.com/Devahoy/devahoy-assets/master/images/2014/03/terminal.png
 
-    $ sudo dnf install snapd
-    $ sudo ln -s /var/lib/snapd/snap /snap
-    $ snap search eclipse
-    $ sudo snap install --classic eclipse
-    
-คุณได้ติดตั้ง Eclipse IDE เวอร์ชันล่าสุดในระบบที่ใช้ Red Hat Linux เรียบร้อยแล้ว
+## โหลดจากเว็บ Eclipse.org
 
-## ทำความเข้าใจกับLibraryที่ใช้ร่วมกันใน Linux
-
-ในการเขียนโปรแกรม ไลบรารีคือกลุ่มของโค้ดที่คอมไพล์ไว้ล่วงหน้าซึ่งสามารถนำมาใช้ซ้ำได้ในโปรแกรม ไลบรารีทำให้ชีวิตของโปรแกรมเมอร์ง่ายขึ้น โดยมีฟังก์ชัน รูทีน คลาส โครงสร้างข้อมูล และอื่นๆ ที่ใช้ซ้ำได้ (เขียนโดยโปรแกรมเมอร์คนอื่น) ซึ่งสามารถใช้ในโปรแกรมของตนได้
-
-ตัวอย่างเช่น หากคุณกำลังสร้างแอปพลิเคชันที่ต้องดำเนินการทางคณิตศาสตร์ คุณไม่จำเป็นต้องสร้างฟังก์ชันทางคณิตศาสตร์ใหม่สำหรับสิ่งนั้น คุณสามารถใช้ฟังก์ชันที่มีอยู่ในไลบรารีสำหรับภาษาโปรแกรมนั้นๆ ได้
-
-ตัวอย่างของไลบรารีใน Linux ได้แก่  **libc**  (ไลบรารี C มาตรฐาน) หรือ  **Glibc**  (เวอร์ชัน GNU ของไลบรารี C มาตรฐาน),  **libcurl**  (ไฟล์หลายโปรโตคอล โอนไลบรารี),  **libcrypt**  (ไลบรารีที่ใช้สำหรับการเข้ารหัส การแฮช และการเข้ารหัสในภาษา C) และอื่นๆ อีกมากมาย
-
-Linux รองรับไลบรารีสองคลาส ได้แก่:
-
- 1. **ไลบรารีแบบสแตติก**  – เชื่อมโยงกับโปรแกรมแบบสแตติก ณ เวลาคอมไพล์
- 2. **ไดนามิกหรือไลบรารีที่ใช้ร่วมกัน**  – จะถูกโหลดเมื่อเปิดโปรแกรมและโหลดลงในหน่วยความจำและการรวมเกิดขึ้นเมื่อรันไทม์
+ 1. เข้าเว็บไซต์ [Eclipse](http://www.eclipse.org/downloads/)
  
- ไลบรารีไดนามิกหรือไลบรารีที่ใช้ร่วมกันสามารถจัดประเภทเพิ่มเติมเป็น:
--   **ไลบรารีที่เชื่อมโยงแบบไดนามิก**  – ที่นี่โปรแกรมเชื่อมโยงกับไลบรารีที่ใช้ร่วมกัน และเคอร์เนลจะโหลดไลบรารี (ในกรณีที่ไม่ได้อยู่ในหน่วยความจำ) เมื่อดำเนินการ
--   **ไลบรารีที่โหลดแบบไดนามิก**  – โปรแกรมควบคุมเต็มรูปแบบโดยการเรียกฟังก์ชันด้วยไลบรารี
-#### แบบแผนการตั้งชื่อไลบรารีที่ใช้ร่วมกัน
+![ดาวน์โหลด Eclipse](https://raw.githubusercontent.com/Devahoy/devahoy-assets/master/images/2014/03/eclipse-download.jpg)
 
-ไลบรารีที่ใช้ร่วมกันมีการตั้งชื่อในสองวิธี: ชื่อไลบรารี (a.k.a  **soname**) และ \ชื่อไฟล์” (พาธสัมบูรณ์ไปยังไฟล์ที่เก็บรหัสไลบรารี)
+ที่มา: https://raw.githubusercontent.com/Devahoy/devahoy-assets/master/images/2014/03/eclipse-download.jpg
 
-ตัวอย่างเช่น  **soname**  สำหรับ  **libc**  คือ  **libc.so.6**  โดยที่  **lib**  เป็นคำนำหน้า  **c**  เป็นชื่อที่สื่อความหมาย ดังนั้นหมายถึงวัตถุที่ใช้ร่วมกัน และ  **6**  คือเวอร์ชัน และชื่อไฟล์คือ:  **/lib64/libc.so.6**  โปรดทราบว่าชื่อจริงเป็นลิงก์สัญลักษณ์ไปยังชื่อไฟล์
+เลือก  **Eclipse Standard 4.3.2, 199 MB**  หากใครต้องการที่จะเขียนพวก Java EE ด้วย ก็เลือก  **Eclipse IDE for Java EE Developers, 248 MB**
 
-#### การค้นหาไลบรารีที่ใช้ร่วมกันใน Linux
+ทำการเลือก OS ที่ต้องการ จากนั้นทำการดาวน์โหลด หลังจากดาวน์โหลดเสร็จสิ้น จะได้ไฟล์  
 
-ไลบรารีที่ใช้ร่วมกันโหลดโดย  **ld.so**  (หรือ  **ld.so.x**) และ  **ld-linux.so**  (หรือ  **ld- linux.so.x**) โปรแกรม โดยที่  **x**  คือเวอร์ชัน ใน Linux  **/lib/ld-linux.so.x**  จะค้นหาและโหลดไลบรารีที่ใช้ร่วมกันทั้งหมดที่ใช้โดยโปรแกรม
+> eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz
 
-โปรแกรมสามารถเรียกไลบรารีโดยใช้ชื่อไลบรารีหรือชื่อไฟล์ และพาธไลบรารีจะจัดเก็บไดเร็กทอรีซึ่งไลบรารีสามารถพบได้ในระบบไฟล์ ตามค่าเริ่มต้น ไลบรารีจะอยู่ใน  **/usr/local/lib**,  **/usr/local/lib64**,  **/usr/lib**  และ  **/usr/lib64**; ไลบรารีการเริ่มต้นระบบอยู่ใน  **/lib**  และ  **/lib64**  อย่างไรก็ตาม โปรแกรมเมอร์สามารถติดตั้งไลบรารีในตำแหน่งที่กำหนดเองได้
+ไปที่โฟลเดอร์ที่ดาวน์โหลดมา ถ้าไม่ได้เลือกอะไร จะอยู่ที่ /Downloads ทำการ Extract ออกมา โดยใช้คำสั่ง
 
-เส้นทางของไลบรารีสามารถกำหนดได้ในไฟล์  **/etc/ld.so.conf**  ซึ่งคุณสามารถแก้ไขได้ด้วยตัวแก้ไขบรรทัดคำสั่ง
+    cd /home/ชื่อยูเซอร์/Downloads tar -zxvf eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz
 
-    # vi /etc/ld.so.conf
-   
-   บรรทัดในไฟล์นี้สั่งให้เคอร์เนลโหลดไฟล์ใน  **/etc/ld.so.conf.d**  ด้วยวิธีนี้ ผู้ดูแลแพ็คเกจหรือโปรแกรมเมอร์สามารถเพิ่มไดเร็กทอรีไลบรารีที่กำหนดเองลงในรายการค้นหา
+เมื่อถึงขั้นตอนนี้ จะได้โฟลเดอร์ eclipse มาแล้ว ทำการย้ายไปไว้ที่ /opt (โฟลเดอร์ใหม่ ใน File System /opt หรือจะโฟลเดอร์ใน /home/ ก็แล้วแต่ชอบ) 
 
-หากคุณดูในไดเร็กทอรี  **/etc/ld.so.conf.d**  คุณจะเห็นไฟล์  **.conf**  สำหรับแพ็คเกจทั่วไป (เคอร์เนล, mysql และ postgresql ใน กรณีนี้):
+    sudo mv eclipse /opt/
 
-    # ls /etc/ld.so.conf.d
-    kernel-2.6.32-358.18.1.el6.x86_64.conf  
-    kernel-2.6.32-696.1.1.el6.x86_64.conf  
-    mariadb-x86_64.conf
-    kernel-2.6.32-642.6.2.el6.x86_64.conf   
-    kernel-2.6.32-696.6.3.el6.x86_64.conf  
-    postgresql-pgdg-libs.conf
-  
- หากคุณดูที่ mariadb-x86_64.conf คุณจะเห็นเส้นทางที่แน่นอนไปยังไลบรารีแพ็คเกจ
+ทำการเพิ่ม Permission ให้กับโฟลเดอร์ eclipse
 
-    # cat mariadb-x86_64.conf
-    /usr/lib64/mysql
-  
-  วิธีการข้างต้นกำหนดเส้นทางห้องสมุดอย่างถาวร หากต้องการตั้งค่าชั่วคราว ให้ใช้ตัวแปรสภาพแวดล้อม **LD_LIBRARY_PATH** ในบรรทัดคำสั่ง หากคุณต้องการให้การเปลี่ยนแปลงเป็นแบบถาวร ให้เพิ่มบรรทัดนี้ในไฟล์เริ่มต้นเชลล์ **/etc/profile** (ส่วนกลาง) หรือ **~/.profile** (เฉพาะผู้ใช้
+    cd /opt/ sudo chown -R root:root eclipse sudo chmod -R +r eclipse
 
-    # export LD_LIBRARY_PATH=/path/to/library/file
-    
-#### การจัดการไลบรารีที่ใช้ร่วมกันใน Linux
+ทำให้ eclipse สามารถรันได้ โดยเปลี่ยนpermission และแก้ไข path ที่อยู่ของ eclipse
 
-ให้เราดูวิธีจัดการกับไลบรารีที่ใช้ร่วมกัน หากต้องการดูรายการการขึ้นต่อกันของไลบรารีที่ใช้ร่วมกันทั้งหมดสำหรับไฟล์ไบนารี คุณสามารถใช้  **ยูทิลิตี ldd**  ผลลัพธ์ของ  **ldd**  จะอยู่ในรูปแบบ:
+    sudo touch /usr/bin/eclipse sudo chmod 755 /usr/bin/eclipse
 
-> library name =>  filename (some hexadecimal value) OR filename (some
-> hexadecimal value)  #this is shown when library name can’t be read
+จากนั้นทำการเปิดไฟล์ eclipse ใน  `/usr/bin`  ด้วย gedit หรือ nano
 
-คำสั่งนี้แสดงการขึ้นต่อกันของไลบรารีที่ใช้ร่วมกันทั้งหมดสำหรับคำสั่ง ls
+    sudo gedit /usr/bin/eclipse
 
-    # ldd /usr/bin/ls
-หรือ
+เพิ่มด้านล่างนี้ลงไป และกดเซฟ
 
-    # ldd /bin/ls
+    #!/bin/sh export ECLIPSE_HOME="/opt/eclipse"
+    ECLIPSE_HOME/eclipse *
 
-##### ตัวอย่างผลลัพธ์
-    linux-vdso.so.1 =>  (0x00007ffebf9c2000)
-	libselinux.so.1 => /lib64/libselinux.so.1 (0x0000003b71e00000)
-	librt.so.1 => /lib64/librt.so.1 (0x0000003b71600000)
-	libcap.so.2 => /lib64/libcap.so.2 (0x0000003b76a00000)
-	libacl.so.1 => /lib64/libacl.so.1 (0x0000003b75e00000)
-	libc.so.6 => /lib64/libc.so.6 (0x0000003b70600000)
-	libdl.so.2 => /lib64/libdl.so.2 (0x0000003b70a00000)
-	/lib64/ld-linux-x86-64.so.2 (0x0000561abfc09000)
-	libpthread.so.0 => /lib64/libpthread.so.0 (0x0000003b70e00000)
-	libattr.so.1 => /lib64/libattr.so.1 (0x0000003b75600000)
+ทำการเพิ่ม icon ให้โชว์ที่หน้า Dash Home
 
-เนื่องจากไลบรารีที่ใช้ร่วมกันสามารถมีอยู่ในไดเร็กทอรีต่างๆ มากมาย การค้นหาผ่านไดเร็กทอรีเหล่านี้ทั้งหมดเมื่อเปิดโปรแกรมจะไม่มีประสิทธิภาพอย่างมาก ซึ่งเป็นข้อเสียอย่างหนึ่งของไดนามิกไลบรารี ดังนั้นจึงมีการใช้กลไกการแคช ซึ่งดำเนินการโดยโปรแกรม  **ldconfig**
+## ทำความเข้าใจกับ Library ที่ใช้ร่วมกันใน Linux
 
-ตามค่าเริ่มต้น  **ldconfig**  จะอ่านเนื้อหาของ  **/etc/ld.so.conf**  สร้างลิงก์สัญลักษณ์ที่เหมาะสมในไดเรกทอรีลิงก์แบบไดนามิก จากนั้นเขียนแคชไปยัง  **/etc/ld.so.cache**  ซึ่งจะนำไปใช้โดยโปรแกรมอื่นได้อย่างง่ายดาย
+### Linux Basics: Static Libraries vs. Dynamic Libraries
+ความแตกต่างระหว่าง Dynamic Libraries กับ Static Libraries
 
-สิ่งนี้สำคัญมากโดยเฉพาะเมื่อคุณเพิ่งติดตั้งไลบรารีที่ใช้ร่วมกันใหม่ หรือสร้างไลบรารีของคุณเอง หรือสร้างไดเร็กทอรีไลบรารีใหม่ คุณต้องเรียกใช้คำสั่ง  **ldconfig**  เพื่อให้การเปลี่ยนแปลงมีผล
+**Static Library**
 
-    # ldconfig
+![lib-01.png](https://codeinsane.files.wordpress.com/2018/04/lib-01.png?w=1100)
 
- หรือ
- 
+ที่มา: https://codeinsane.files.wordpress.com/2018/04/lib-01.png?w=1100
 
-    # ldconfig -v 	#shows files and directories it works with
+การทำ Static Library จะเป็นการนำ Library มารวมอยู่ในโปรแกรม Executeable File จะทำให้ Size ของโปรแกรม Executeable File มีขนาดใหญ่เกินความจำเป็น เนื่องจาก Library ที่นำมาทำ Link อาจจะเป็น Standard Library ที่โปรแกรมอื่น ๆ ต้องการใช้ ทำให้เกิดการใช้ซ้ำ และจะกินเนื้อที่ของ Memory แต่โปรแกรมก็จะทำงานได้รวดเร็ว หาก Library ที่เราทำ Link มีการแก้ไข จะต้องทำการ Compile โปรแกรมใหม่ ซึ่งช่วยลดปัญหาเรื่อง Compatible ของ Library ไป ซึ่งบน OS จะมีนามสกุลไฟล์ ได้แก่
+-   Windows .lib (Library)
+-   Linux .a (Archive)
 
-หลังจากสร้างไลบรารีที่ใช้ร่วมกัน คุณต้องติดตั้ง คุณสามารถย้ายไปยังไดเร็กทอรีมาตรฐานใดก็ได้ที่กล่าวถึงข้างต้นและเรียกใช้คำสั่ง  **ldconfig**
+**Dynamic Library**
+![lib-02.png](https://codeinsane.files.wordpress.com/2018/04/lib-02.png?w=1100)
 
-หรือเรียกใช้คำสั่งต่อไปนี้เพื่อสร้างลิงก์สัญลักษณ์จาก  **soname**  ไปยังชื่อไฟล์:
+ที่มา: https://codeinsane.files.wordpress.com/2018/04/lib-02.png?w=1100
 
-    # ldconfig -n /path/to/your/shared/libraries
-หากต้องการเริ่มต้นสร้างไลบรารีของคุณเอง โปรดดูคู่มือนี้จาก [The Linux Documentation Project (TLDP)](https://tldp.org/HOWTO/Program-Library-HOWTO/introduction.html)
+การทำ Dynamic Library หรือ Shared Library เพื่อแก้ปัญหาเรื่อง Size ของ Executeable File โดยทำ References อ้างอิงไว้ ทำให้ Size ของโปรแกรม Executeable File มีขนาดเล็กลง รวมถึงพื้นที่บน Memory โดยไม่จำเป็นต้องโหลด Library สำหรับทุก ๆ Process หรือ ทุก ๆ Program ทำให้เวลาโหลดเร็วขึ้นหาก Library ถุกโหลดอยู่บน Memory แล้ว แต่การทำงานจะช้าเพราะไม่ได้ถุก Compile เป็นโปรแกรมเดียวกัน และจะมีปัญหาเรื่องของ Compatible ของ Library อาจจะต้องเขียนโปรแกรมใหม่เพื่อให้ Compatible ซึ่งบน OS จะมีนามสกุลไฟล์ ได้แก่
+
+-   Windows .dll (Dynamic Link Library)
+-   Linux .so (Shared Object)
+
+**Dynamic Libraries**
+
+ทำการสร้าง Dynamic Libraries ใช้คำสั่ง
+
+    gcc -g -fPIC -Wall -Werror -Wextra -pedantic *.c -shared -o liball.so
+
+โปรแกรมต้องการเส้นทางเพื่อค้นหาไฟล์Libraries ดังนั้นคุณต้องพิมพ์คำสั่งต่อไปนี้เพื่อชี้ตำแหน่งนั้นให้กับค่าที่เรียกว่า `LD_LIBRARY_PATH`
+
+    export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+
+ต้องการใช้ Dynamic Libraries ให้พิมพ์คำสั่งต่อไปนี้
+
+    gcc -g -wall -o app app.c liball.so
+
+**Static Libraries**
+
+ต้องการสร้าง Static Libraries ใช้คำสั่ง
+
+    ar rc liball.a dog.o cat.o bird.o
+
+“ar” ย่อมาจาก archive และใช้เพื่อสร้าง Static Libraries ไฟล์ทั้งหมดที่ลงท้ายด้วย ".o"
+`-rc flag`จะทำสองสิ่ง: แทนที่และสร้าง Libraries ใหม่หากไม่มีอยู่ ให้พิมพ์คำสั่ง
+
+    ranlib liball.a
+
+เมื่อต้องการใช้ Static Libraries ใช้คำสั่ง
+
+    gcc main.c -L -l<filename>
 
 ## References
 
- - https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/2245-ide-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html
- - https://aws.amazon.com/th/what-is/ide/
- - https://th.linux-console.net/?p=1836
  - https://www.aosoft.co.th/article/312/Eclipse-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html
- - https://sumethd.medium.com/%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-gnome-desktop-%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD-enable-gui-mode-in-rhel-8-5a13e831d0ee
+ - https://th.linux-console.net/?p=666
+ - https://www.eclipse.org/
+ - https://askubuntu.com/questions/80013/how-to-pin-eclipse-to-the-unity-launcher
+ - https://askubuntu.com/questions/26632/how-to-install-eclipse
+ - https://www.ert.co.th/ide/#IDE-2
+ - https://medium.com/swlh/linux-basics-static-libraries-vs-dynamic-libraries-a7bcf8157779
+ - https://medium.com/@StueyGK/static-libraries-vs-dynamic-libraries-af78f0b5f1e4
+ - https://apple.co/2qNcf9p
+ - https://bit.ly/2vNl2v4
+ - https://bit.ly/2vKe0Hn
+
