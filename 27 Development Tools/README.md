@@ -4,7 +4,7 @@
 
  - [IDE](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#ide-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3)
  - [Eclipse](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#eclipse-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-)
- - [Library](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%81%E0%B8%B1%E0%B8%9Alibrary%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%83%E0%B8%99-linux)
+ - [Library](https://github.com/misterfocusth/Code-Development-Group-02/tree/main/27%20Development%20Tools#%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%81%E0%B8%B1%E0%B8%9A-library-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%83%E0%B8%99-linux)
 
 ## IDE คืออะไร
 
@@ -215,8 +215,56 @@ Eclipse เป็น IDE ที่นิยมมากในปัจจุบ�
 ## ทำความเข้าใจกับ Library ที่ใช้ร่วมกันใน Linux
 
 ### Linux Basics: Static Libraries vs. Dynamic Libraries
+ความแตกต่างระหว่าง Dynamic Libraries กับ Static Libraries
 
-Dynamic Libraries
+**Static Library**
+
+![lib-01.png](https://codeinsane.files.wordpress.com/2018/04/lib-01.png?w=1100)
+
+ที่มา: https://codeinsane.files.wordpress.com/2018/04/lib-01.png?w=1100
+
+การทำ Static Library จะเป็นการนำ Library มารวมอยู่ในโปรแกรม Executeable File จะทำให้ Size ของโปรแกรม Executeable File มีขนาดใหญ่เกินความจำเป็น เนื่องจาก Library ที่นำมาทำ Link อาจจะเป็น Standard Library ที่โปรแกรมอื่น ๆ ต้องการใช้ ทำให้เกิดการใช้ซ้ำ และจะกินเนื้อที่ของ Memory แต่โปรแกรมก็จะทำงานได้รวดเร็ว หาก Library ที่เราทำ Link มีการแก้ไข จะต้องทำการ Compile โปรแกรมใหม่ ซึ่งช่วยลดปัญหาเรื่อง Compatible ของ Library ไป ซึ่งบน OS จะมีนามสกุลไฟล์ ได้แก่
+-   Windows .lib (Library)
+-   Linux .a (Archive)
+
+**Dynamic Library**
+![lib-02.png](https://codeinsane.files.wordpress.com/2018/04/lib-02.png?w=1100)
+
+ที่มา: https://codeinsane.files.wordpress.com/2018/04/lib-02.png?w=1100
+
+การทำ Dynamic Library หรือ Shared Library เพื่อแก้ปัญหาเรื่อง Size ของ Executeable File โดยทำ References อ้างอิงไว้ ทำให้ Size ของโปรแกรม Executeable File มีขนาดเล็กลง รวมถึงพื้นที่บน Memory โดยไม่จำเป็นต้องโหลด Library สำหรับทุก ๆ Process หรือ ทุก ๆ Program ทำให้เวลาโหลดเร็วขึ้นหาก Library ถุกโหลดอยู่บน Memory แล้ว แต่การทำงานจะช้าเพราะไม่ได้ถุก Compile เป็นโปรแกรมเดียวกัน และจะมีปัญหาเรื่องของ Compatible ของ Library อาจจะต้องเขียนโปรแกรมใหม่เพื่อให้ Compatible ซึ่งบน OS จะมีนามสกุลไฟล์ ได้แก่
+
+-   Windows .dll (Dynamic Link Library)
+-   Linux .so (Shared Object)
+
+**Dynamic Libraries**
+
+ทำการสร้าง Dynamic Libraries ใช้คำสั่ง
+
+    gcc -g -fPIC -Wall -Werror -Wextra -pedantic *.c -shared -o liball.so
+
+โปรแกรมต้องการเส้นทางเพื่อค้นหาไฟล์Libraries ดังนั้นคุณต้องพิมพ์คำสั่งต่อไปนี้เพื่อชี้ตำแหน่งนั้นให้กับค่าที่เรียกว่า `LD_LIBRARY_PATH`
+
+    export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+
+ต้องการใช้ Dynamic Libraries ให้พิมพ์คำสั่งต่อไปนี้
+
+    gcc -g -wall -o app app.c liball.so
+
+**Static Libraries**
+
+ต้องการสร้าง Static Libraries ใช้คำสั่ง
+
+    ar rc liball.a dog.o cat.o bird.o
+
+“ar” ย่อมาจาก archive และใช้เพื่อสร้าง Static Libraries ไฟล์ทั้งหมดที่ลงท้ายด้วย ".o"
+`-rc flag`จะทำสองสิ่ง: แทนที่และสร้าง Libraries ใหม่หากไม่มีอยู่ ให้พิมพ์คำสั่ง
+
+    ranlib liball.a
+
+เมื่อต้องการใช้ Static Libraries ใช้คำสั่ง
+
+    gcc main.c -L -l<filename>
 
 ## References
 
@@ -226,5 +274,9 @@ Dynamic Libraries
  - https://askubuntu.com/questions/80013/how-to-pin-eclipse-to-the-unity-launcher
  - https://askubuntu.com/questions/26632/how-to-install-eclipse
  - https://www.ert.co.th/ide/#IDE-2
-
+ - https://medium.com/swlh/linux-basics-static-libraries-vs-dynamic-libraries-a7bcf8157779
+ - https://medium.com/@StueyGK/static-libraries-vs-dynamic-libraries-af78f0b5f1e4
+ - https://apple.co/2qNcf9p
+ - https://bit.ly/2vNl2v4
+ - https://bit.ly/2vKe0Hn
 
